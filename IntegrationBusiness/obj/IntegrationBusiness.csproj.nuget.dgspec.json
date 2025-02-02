@@ -1,36 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj": {}
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj": {}
   },
   "projects": {
-    "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj",
         "projectName": "IntegrationBusiness",
-        "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj",
-        "packagesPath": "/Users/tuanbeo/.nuget/packages/",
-        "outputPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/obj/",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuanbeo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj": {
-                "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj"
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj"
               },
-              "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj": {
-                "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj"
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj"
               }
             }
           }
@@ -39,11 +42,38 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,41 +85,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuanbeo/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj",
         "projectName": "IntegrationDtos",
-        "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj",
-        "packagesPath": "/Users/tuanbeo/.nuget/packages/",
-        "outputPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuanbeo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -102,6 +125,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -118,41 +146,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuanbeo/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
         "projectName": "IntegrationModels",
-        "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj",
-        "packagesPath": "/Users/tuanbeo/.nuget/packages/",
-        "outputPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuanbeo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -165,6 +186,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -181,22 +207,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuanbeo/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,3 +9,15 @@
 /Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/refint/IntegrationDtos.dll
 /Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.pdb
 /Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/ref/IntegrationDtos.dll
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\bin\Debug\net6.0\IntegrationDtos.deps.json
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\bin\Debug\net6.0\IntegrationDtos.dll
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\bin\Debug\net6.0\IntegrationDtos.pdb
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.AssemblyInfoInputs.cache
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.AssemblyInfo.cs
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.csproj.CoreCompileInputs.cache
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.sourcelink.json
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.dll
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\refint\IntegrationDtos.dll
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\IntegrationDtos.pdb
+D:\Workspace\learn\WebAppSolutionC-\IntegrationDtos\obj\Debug\net6.0\ref\IntegrationDtos.dll
