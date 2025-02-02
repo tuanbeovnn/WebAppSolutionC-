@@ -1,0 +1,11 @@
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/bin/Debug/net6.0/IntegrationModels.deps.json
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/bin/Debug/net6.0/IntegrationModels.dll
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/bin/Debug/net6.0/IntegrationModels.pdb
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/IntegrationModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/IntegrationModels.AssemblyInfoInputs.cache
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/IntegrationModels.AssemblyInfo.cs
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/IntegrationModels.csproj.CoreCompileInputs.cache
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/IntegrationModels.dll
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/refint/IntegrationModels.dll
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/IntegrationModels.pdb
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/obj/Debug/net6.0/ref/IntegrationModels.dll

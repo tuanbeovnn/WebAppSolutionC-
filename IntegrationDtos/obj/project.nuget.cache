@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GJC5OoWEi3cKtfDz5HWTGK+ZuIMI/UV7qE6GHWnlPkFQ5c/YFs0yQJn7prxev4/LC0jWo8p1UkgUv6R4IbGk1Q==",
+  "success": true,
+  "projectFilePath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj",
+  "expectedPackageFiles": [
+    "/Users/tuanbeo/.nuget/packages/microsoft.netcore.app.ref/6.0.28/microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "/Users/tuanbeo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.28/microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

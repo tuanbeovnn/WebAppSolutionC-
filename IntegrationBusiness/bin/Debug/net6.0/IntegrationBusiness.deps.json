@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "IntegrationBusiness/1.0.0": {
+        "dependencies": {
+          "IntegrationDtos": "1.0.0",
+          "IntegrationModels": "1.0.0"
+        },
+        "runtime": {
+          "IntegrationBusiness.dll": {}
+        }
+      },
+      "IntegrationDtos/1.0.0": {
+        "runtime": {
+          "IntegrationDtos.dll": {}
+        }
+      },
+      "IntegrationModels/1.0.0": {
+        "runtime": {
+          "IntegrationModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IntegrationBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IntegrationDtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IntegrationModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

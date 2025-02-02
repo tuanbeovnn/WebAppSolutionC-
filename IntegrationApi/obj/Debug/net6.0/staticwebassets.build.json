@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WxmCL47DBrQEZOFAAqiqPF0UP3HYkHk6tbarqdTLfk0=",
+  "Source": "IntegrationApi",
+  "BasePath": "_content/IntegrationApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

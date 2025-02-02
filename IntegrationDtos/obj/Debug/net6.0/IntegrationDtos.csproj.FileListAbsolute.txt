@@ -1,0 +1,11 @@
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/bin/Debug/net6.0/IntegrationDtos.deps.json
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/bin/Debug/net6.0/IntegrationDtos.dll
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/bin/Debug/net6.0/IntegrationDtos.pdb
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.AssemblyInfoInputs.cache
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.AssemblyInfo.cs
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.csproj.CoreCompileInputs.cache
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.dll
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/refint/IntegrationDtos.dll
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/IntegrationDtos.pdb
+/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/obj/Debug/net6.0/ref/IntegrationDtos.dll

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4w1byjM8kO3bDg9Q5dlj0TsaVA0H1vk4Px9DjjRqxUNnxnN8FES7WyTph1s373xzuitbp/Vu+RAPN7fFG7KARg==",
+  "success": true,
+  "projectFilePath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj",
+  "expectedPackageFiles": [
+    "/Users/tuanbeo/.nuget/packages/microsoft.netcore.app.ref/6.0.28/microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "/Users/tuanbeo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.28/microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

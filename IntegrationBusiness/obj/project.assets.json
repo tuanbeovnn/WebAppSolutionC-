@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "IntegrationDtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/IntegrationDtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegrationDtos.dll": {}
+        }
+      },
+      "IntegrationModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/IntegrationModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegrationModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IntegrationDtos/1.0.0": {
+      "type": "project",
+      "path": "../IntegrationDtos/IntegrationDtos.csproj",
+      "msbuildProject": "../IntegrationDtos/IntegrationDtos.csproj"
+    },
+    "IntegrationModels/1.0.0": {
+      "type": "project",
+      "path": "../IntegrationModels/IntegrationModels.csproj",
+      "msbuildProject": "../IntegrationModels/IntegrationModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "IntegrationDtos >= 1.0.0",
+      "IntegrationModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tuanbeo/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj",
+      "projectName": "IntegrationBusiness",
+      "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/IntegrationBusiness.csproj",
+      "packagesPath": "/Users/tuanbeo/.nuget/packages/",
+      "outputPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationBusiness/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/tuanbeo/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj": {
+              "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationDtos/IntegrationDtos.csproj"
+            },
+            "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj": {
+              "projectPath": "/Users/tuanbeo/RiderProjects/WebAppSolution/IntegrationModels/IntegrationModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/tuanbeo/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
