@@ -8,27 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\viett\\.nuget\\packages\\": {}
+    "/Users/tuannguyen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
+      "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj",
       "projectName": "IntegrationModels",
-      "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
-      "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\obj\\",
+      "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj",
+      "packagesPath": "/Users/tuannguyen/.nuget/packages/",
+      "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -41,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -62,12 +54,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

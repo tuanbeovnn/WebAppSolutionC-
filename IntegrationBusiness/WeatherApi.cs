@@ -1,7 +1,4 @@
-using System.Net;
-using System.Text.Json.Serialization;
 using IntegrationDtos;
-using IntegrationModels;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
@@ -16,39 +13,33 @@ public class WeatherApi
         _options = options.Value;
     }
 
-    public async Task<Response<WeatherInfo>> GetCurrentWeather(WeatherDto dto)
+    public async Task<Response<WeatherResponse>> GetCurrentWeather(WeatherDto dto)
     {
-        //FluentValidation 
-        //Call API + Named Client
-        HttpClient client = new HttpClient()
+        using HttpClient client = new()
         {
             BaseAddress = new Uri(_options.BaseAddress),
         };
 
         string requestUri = $"appId={_options.AppId}&units={dto.Units}&q={dto.Query}";
         var response = await client.GetAsync("/data/2.5/weather?" + requestUri);
+
         if (response.IsSuccessStatusCode)
         {
             var data = await response.Content.ReadAsStringAsync();
             try
             {
-                var info = JsonConvert.DeserializeObject<WeatherInfo>(data);
-                return new SuccessResponse<WeatherInfo>()
+                var info = JsonConvert.DeserializeObject<WeatherResponse>(data);
+                return new SuccessResponse<WeatherResponse>("Weather data retrieved successfully")
                 {
-                    Message = "",
-                    Data = info,
+                    Data = info
                 };
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                throw;
+                return new ErrorResponse<WeatherResponse>("Failed to parse weather data.");
             }
         }
 
-        return new Response<WeatherInfo>()
-        {
-            Success = false,
-            Message = ""
-        };
+        return new ErrorResponse<WeatherResponse>("Failed to fetch weather data from API.");
     }
 }

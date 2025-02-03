@@ -7,36 +7,24 @@ public class Response
 
     public Response()
     {
-        
     }
-    public Response(bool success)
+
+    public Response(bool success, string message)
     {
         this.Success = success;
+        this.Message = message;
     }
 }
-public class Response<T>:Response
+
+public class Response<T> : Response
 {
-    public virtual bool Success { get; set; }
-    public string Message { get; set; }
+    public T Data { get; set; }
 
     public Response()
     {
-        
     }
-    public Response(bool success)
-    {
-        this.Success = success;
-    }
-}
 
-
-public class SuccessResponse<T> : Response<T>
-{
-    public override bool Success => base.Success;
-
-    public SuccessResponse() : base(true)
+    public Response(bool success, string message) : base(success, message)
     {
     }
-
-    public T Data { get; set; }
 }

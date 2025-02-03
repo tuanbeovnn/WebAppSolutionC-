@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bznRACFweSk=",
+  "dgSpecHash": "T89OEsi6SV9oiLhfGZdis67xEm54pK4wWTuLZTZQdJXjUjkuRltb4ZOqfdBoOLvcEEX42rCAnUfyY1VG/1odIQ==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj",
+  "expectedPackageFiles": [
+    "/Users/tuannguyen/.nuget/packages/microsoft.netcore.app.ref/6.0.28/microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "/Users/tuannguyen/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.28/microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

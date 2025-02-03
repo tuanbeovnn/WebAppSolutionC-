@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DzbPDUHenLM=",
+  "dgSpecHash": "ym7HDDSyyhQ3DvmbmgaAvOScLuCfg1v3sERTnjJXv9PLYZxMksxECMzC8/aCqPWk0y1SmOi9/pzTIPgxxId+RQ==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj",
+  "expectedPackageFiles": [
+    "/Users/tuannguyen/.nuget/packages/microsoft.netcore.app.ref/6.0.28/microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "/Users/tuannguyen/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.28/microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "FluentValidation/11.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -175,6 +188,31 @@
     }
   },
   "libraries": {
+    "FluentValidation/11.11.0": {
+      "sha512": "cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "type": "package",
+      "path": "fluentvalidation/11.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.11.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Microsoft.Extensions.Configuration/6.0.0": {
       "sha512": "tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
       "type": "package",
@@ -390,6 +428,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FluentValidation >= 11.11.0",
       "IntegrationDtos >= 1.0.0",
       "IntegrationModels >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 6.0.0",
@@ -400,38 +439,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\viett\\.nuget\\packages\\": {}
+    "/Users/tuannguyen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj",
+      "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj",
       "projectName": "IntegrationBusiness",
-      "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj",
-      "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\obj\\",
+      "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj",
+      "packagesPath": "/Users/tuannguyen/.nuget/packages/",
+      "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj": {
-              "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj"
+            "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj": {
+              "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj"
             },
-            "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
-              "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj"
+            "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj": {
+              "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj"
             }
           }
         }
@@ -440,17 +476,16 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.11.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -483,12 +518,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,6 +16,14 @@
           "IntegrationApi.dll": {}
         }
       },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Configuration/6.0.0": {
         "dependencies": {
@@ -111,6 +119,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "IntegrationBusiness/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.11.0",
           "IntegrationDtos": "1.0.0",
           "IntegrationModels": "1.0.0",
           "Microsoft.Extensions.Configuration": "6.0.0",
@@ -120,26 +129,17 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "IntegrationBusiness.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "IntegrationBusiness.dll": {}
         }
       },
       "IntegrationDtos/1.0.0": {
         "runtime": {
-          "IntegrationDtos.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "IntegrationDtos.dll": {}
         }
       },
       "IntegrationModels/1.0.0": {
         "runtime": {
-          "IntegrationModels.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "IntegrationModels.dll": {}
         }
       }
     }
@@ -149,6 +149,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

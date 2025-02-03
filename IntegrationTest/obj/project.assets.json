@@ -5508,27 +5508,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\viett\\.nuget\\packages\\": {}
+    "/Users/tuannguyen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationTest\\IntegrationTest.csproj",
+      "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationTest/IntegrationTest.csproj",
       "projectName": "IntegrationTest",
-      "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationTest\\IntegrationTest.csproj",
-      "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationTest\\obj\\",
+      "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationTest/IntegrationTest.csproj",
+      "packagesPath": "/Users/tuannguyen/.nuget/packages/",
+      "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5541,11 +5538,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5585,7 +5577,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
