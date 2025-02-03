@@ -15,7 +15,9 @@ builder.Services.AddSwaggerGen();
 builder.Services
     .AddAllOptions(builder.Configuration)
     .AddApi()
-    .AddAllServices();
+    .AddAllServices()
+    .AddHttpResiliencePipeline()
+    .AddSqlOptions(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

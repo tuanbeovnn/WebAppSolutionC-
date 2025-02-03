@@ -10,7 +10,15 @@ public interface IGenericRepository<T> where T : ModelBase
 {
     IEnumerable<T> GetAll();
     T? GetById(object id);
+    /// <summary>
+    ///     Thêm 1 bản ghi vào trong collection (DbSet<T>)
+    /// </summary>
+    /// <param name="obj"></param>
     void Insert(T obj);
+    /// <summary>
+    ///     Commit change xuống database
+    /// </summary>
+    /// <returns></returns>
     bool Save();
     Task<bool> SaveAsync();
 }

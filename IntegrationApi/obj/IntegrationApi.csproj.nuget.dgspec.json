@@ -1,36 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationApi/IntegrationApi.csproj": {}
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApi\\IntegrationApi.csproj": {}
   },
   "projects": {
-    "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationApi/IntegrationApi.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApi\\IntegrationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationApi/IntegrationApi.csproj",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApi\\IntegrationApi.csproj",
         "projectName": "IntegrationApi",
-        "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationApi/IntegrationApi.csproj",
-        "packagesPath": "/Users/tuannguyen/.nuget/packages/",
-        "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationApi/obj/",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApi\\IntegrationApi.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj": {
-                "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj"
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj"
               },
-              "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj": {
-                "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj"
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj"
               }
             }
           }
@@ -39,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,20 +69,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,37 +77,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApplication\\IntegrationApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj",
-        "projectName": "IntegrationBusiness",
-        "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/IntegrationBusiness.csproj",
-        "packagesPath": "/Users/tuannguyen/.nuget/packages/",
-        "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationBusiness/obj/",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApplication\\IntegrationApplication.csproj",
+        "projectName": "IntegrationApplication",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApplication\\IntegrationApplication.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj": {
-                "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj"
-              },
-              "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj": {
-                "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj"
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj"
               }
             }
           }
@@ -122,6 +116,104 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microservices.Common.Application.Repositories.Sql.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj",
+        "projectName": "IntegrationBusiness",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\IntegrationBusiness.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApplication\\IntegrationApplication.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationApplication\\IntegrationApplication.csproj"
+              },
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj"
+              },
+              "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
+                "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -132,21 +224,41 @@
               "target": "Package",
               "version": "[11.11.0, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Resilience": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -164,41 +276,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj",
         "projectName": "IntegrationDtos",
-        "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/IntegrationDtos.csproj",
-        "packagesPath": "/Users/tuannguyen/.nuget/packages/",
-        "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationDtos/obj/",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\IntegrationDtos.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationDtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -211,6 +316,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -227,41 +337,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj": {
+    "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj",
+        "projectUniqueName": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
         "projectName": "IntegrationModels",
-        "projectPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/IntegrationModels.csproj",
-        "packagesPath": "/Users/tuannguyen/.nuget/packages/",
-        "outputPath": "/Users/tuannguyen/Documents/backendc#/WebAppSolutionC-/IntegrationModels/obj/",
+        "projectPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\IntegrationModels.csproj",
+        "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\learn\\WebAppSolutionC-\\IntegrationModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -274,6 +377,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -290,22 +398,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/tuannguyen/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

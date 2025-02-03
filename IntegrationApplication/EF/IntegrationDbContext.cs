@@ -21,8 +21,8 @@ public class IntegrationDbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            var connectionString = "Server=code4fun.xyz,1433;Database=blogs_solution;User Id=sa;Password=P@ssword*123;";
-
+            var connectionString = "Server=code4fun.xyz,1433;Database=web_solutions;User Id=sa;Password=Very_Strong_Password_@@7;";
+            
             optionsBuilder.UseSqlServer(connectionString, options => { options.EnableRetryOnFailure(); });
         }
     }
